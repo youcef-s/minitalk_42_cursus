@@ -18,7 +18,7 @@ client: client.o
 	cc -Wall -Wextra -Werror client.o -o client
 
 clean:
-	rm -f $(OBJ)
+	rm -f $(OBJ) $(B_OBJ)
 
 fclean: clean
 	rm -f server client server_bonus client_bonus
